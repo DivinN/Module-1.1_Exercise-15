@@ -1,0 +1,230 @@
+﻿<Window x:Class="Module_1._1_Exercise_15_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Module_1._1_Exercise_15_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <FlowDocumentScrollViewer>
+            <FlowDocument>
+                <Paragraph>
+                    <Bold FontSize="22">Домашние тонкие блинчики</Bold>
+                </Paragraph>
+
+                <Paragraph FontSize="18">
+                    <Run Foreground="MidnightBlue">Умение готовить домашние</Run>
+                    <Hyperlink Foreground="MidnightBlue" NavigateUri="https://www.gastronom.ru/recipe/19808/domashnie-blinchiki"> тонкие блинчики </Hyperlink>
+                    <Run Foreground="MidnightBlue">никогда не будет лишним: они могут стать отличной палочкой-выручалочкой в самых различных ситуациях. Самое простое, что приходит в голову, — это завтрак.</Run>
+                    <Underline Foreground="MidnightBlue">Готовятся блинчики довольно быстро,</Underline>
+                    <Run Foreground="MidnightBlue">что очень важно утром, а любят их все. Помимо этого очевидного варианта, есть и другие. Блины можно начинить мясом или творогом, свернуть трубочками и подрумянить со всех сторон. Сытный ужин готов! А еще из домашних тонких блинчиков можно приготовить своеобразные роллы — с наполнителем по вашему вкусу. Дайте волю кулинарной фантазии!</Run>
+                </Paragraph>
+                        
+                <BlockUIContainer>
+                    <Image Width="500" HorizontalAlignment="Center" Source="Data/1.jpg"></Image>
+                </BlockUIContainer>
+
+                <Paragraph>
+                    <Bold FontSize="22">Ингредиенты</Bold>
+                </Paragraph>
+
+                <Table>
+                    <Table.Columns>
+                        <TableColumn Width="*"/>
+                        <TableColumn Width="0.5*"/>
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Ингредиент
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Ингредиент
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Яйца
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    3 шт.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Сахар
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    1 ст.л.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Соль
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    1 ч.л.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Молоко
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    500 мл.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Мука
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    280 гр.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Растительное масло
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    3 ст.л.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Сливочное масло, сметана, варенье для подачи
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    По вкусу
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+
+                    </TableRowGroup>
+                </Table>
+                <Paragraph>
+                    <Bold FontSize="22">Краткий рецепт приготовления</Bold>
+                </Paragraph>
+                <List MarkerStyle="Circle">
+                    <ListItem>
+                        <Paragraph>
+                            Подготовить яичную смесь;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Добавить молоко;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Добавить муку;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Влить растительное масло, оставить на 10 минут;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Жарить блинчики с дух сторон.
+                        </Paragraph>
+                    </ListItem>
+                </List>
+
+                
+                <Paragraph>
+                    <Bold FontSize="22">Пошаговый рецепт приготовления</Bold>
+                </Paragraph>
+                
+                <Paragraph>
+                    <Bold FontSize="22">Шаг 1</Bold>
+                </Paragraph>
+                <BlockUIContainer>
+                    <Image Width="500" HorizontalAlignment="Center" Source="Data/Step1.jpg"></Image>
+                </BlockUIContainer>
+                <Paragraph>
+                    <Run Foreground="MidnightBlue" FontSize="16">Приготовить тесто для домашних блинчиков. В большой миске слегка взбить венчиком яйца с сахаром и солью. Не следует это делать слишком долго и тщательно: главное, чтобы ингредиенты только соединились.</Run>
+                </Paragraph>
+                
+                <Paragraph>
+                    <Bold FontSize="22">Шаг 2</Bold>
+                </Paragraph>
+                <BlockUIContainer>
+                    <Image Width="500" HorizontalAlignment="Center" Source="Data/Step2.jpg"></Image>
+                </BlockUIContainer>
+                <Paragraph>
+                    <Run Foreground="MidnightBlue" FontSize="16">В получившуюся яичную смесь, основу теста блинчиков, влить половину холодного молока. Перемешать венчиком, чтобы получилась масса однородной консистенции. Муку просеять через мелкое сито.</Run>
+                </Paragraph>
+                
+                <Paragraph>
+                    <Bold FontSize="22">Шаг 3</Bold>
+                </Paragraph>
+                <BlockUIContainer>
+                    <Image Width="500" HorizontalAlignment="Center" Source="Data/Step3.jpg"></Image>
+                </BlockUIContainer>
+                <Paragraph>
+                    <Run Foreground="MidnightBlue" FontSize="16">Понемногу добавить в яично-молочную смесь муку, перемешивая венчиком или лопаточкой до получения теста консистенции однородной сметаны. Следите, чтобы не было комочков!</Run>
+                </Paragraph>
+
+                <Paragraph>
+                    <Bold FontSize="22">Шаг 4</Bold>
+                </Paragraph>
+                <BlockUIContainer>
+                    <Image Width="500" HorizontalAlignment="Center" Source="Data/Step4.jpg"></Image>
+                </BlockUIContainer>
+                <Paragraph>
+                    <Run Foreground="MidnightBlue" FontSize="16">Добавить в тесто домашних блинчиков оставшееся молоко и тщательно перемешать венчиком Влить растительное масло. Перемешать и оставить на 10-15 минут при комнатной температуре.</Run>
+                </Paragraph>
+
+                <Paragraph>
+                    <Bold FontSize="22">Шаг 5</Bold>
+                </Paragraph>
+                <BlockUIContainer>
+                    <Image Width="500" HorizontalAlignment="Center" Source="Data/Step5.jpg"></Image>
+                </BlockUIContainer>
+                <Paragraph>
+                    <Run Foreground="MidnightBlue" FontSize="16">Нагреть чугунную сковороду, смазать растительным маслом и жарить тонкие блинчики с двух сторон. Выкладывать их стопкой, смазывая маленьким кусочком сливочного масла.</Run>
+                </Paragraph>
+
+                <Paragraph TextAlignment="Center">
+                    <Bold FontSize="22">Приятного аппетита!</Bold>
+                </Paragraph>
+
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+    </Grid>
+</Window>
